@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <title>Portfólio</title>
   </head>
   <body>
@@ -20,30 +24,37 @@
         <div class="header-navbar-wrapper">
           <nav class="header-navbar-container">
             <ul class="header-navbar-list">
-              <li>Home</li>
-              <li>About</li>
-              <li>Tech Stack</li>
-              <li>Projects</li>
-              <li>Contact</li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Tech Stack</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Contact</a></li>
             </ul>
           </nav>
           <nav class="header-navbar-social-media">
-            <img class="navbar-icons" src="./img/github.png" alt="Github" />
-            <img class="navbar-icons" src="./img/twitter.png" alt="Twitter" />
-            <img class="navbar-icons" src="./img/linkedin.png" alt="LinkedIn" />
+            <a href="https://github.com/dgcezar"><img class="navbar-icons" src="./img/github.png" alt="Github" /></a>
+            <a href="https://twitter.com"><img class="navbar-icons" src="./img/twitter.png" alt="Twitter" /></a>
+            <a href="https://www.linkedin.com/in/diego-cezar/"><img class="navbar-icons" src="./img/linkedin.png" alt="LinkedIn" /></a>
           </nav>
         </div>
       </section>
     </header>
 
     <main>
-      <section>
-        <div>
-          <p>Hi, My name is NOME I build things of web</p>
+      <section class="main-container">
+        <div class="main-text">
+          <h1>
+            Hi 👋,<br />
+            My name is<br />
+            <span class="main-text-username">Diego Cezar</span><br />
+            I build things of web
+          </h1>
         </div>
-        <div>
-            <img src="./img/user-img.jpg" alt="user image">
-        </div>
+        <img
+          class="main-user-image"
+          src="./img/user-img.jpg"
+          alt="user image"
+        />
       </section>
     </main>
   </body>
